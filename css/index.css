@@ -52,6 +52,7 @@ html, body {
   width: 100%;
   height: 300px;
   padding: 20px;
+  overflow: hidden;
 }
 .ribbon-container .image-placeholder {
   color: white;
@@ -68,6 +69,22 @@ html, body {
 }
 .content h5, .content h6 {
   margin: 0;
+}
+.content.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content.contact > div {
+  width: 40%;
+}
+.content.contact > div iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.bold {
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=index.css.map */
